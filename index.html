@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Character Nonsense</title>
+</head>
+
+<body>
+    <h1>Character Creator</h1>
+    <p>blah blah</p>
+
+    <form id="charAttributes">
+        <label for="name">Name your character</label>
+        <input type="text" name="name" id="name">
+        <br />
+
+        <label for="radio-form">
+            <p>Choose your armor:</p>
+            <input type="radio" name="armor" value="cloth" class="armor">
+            <label for="armor">Cloth</label>
+            <input type="radio" name="armor" value="leather" class="armor">
+            <label for="armor">Leather</label>
+            <input type="radio" name="armor" value="platemail" class="armor">
+            <label for="armor">Platemail</label>
+        </label>
+
+        <label for="select-form">
+            <p>Select your weapon:</p>
+            <select id="weapon">
+                <option value="1">Frying pan</option>
+                <option value="2">Large fish</option>
+                <option value="3">Club</option>
+                <option value="4">Brass knuckles</option>
+            </select>
+            <button type="submit">Submit!</button>
+        </label>
+    </form>
+    <h2>Results</h2>
+    <p>Your final character is: <span id="output"></span></p>
+
+</body>
+
+</html>
